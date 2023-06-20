@@ -11,7 +11,8 @@
         "outputPath": "dist/packages/is-odd",
         "main": "packages/is-odd/src/index.ts",
         "tsConfig": "packages/is-odd/tsconfig.lib.json",
-        "assets": ["packages/is-odd/*.md"]
+        "assets": ["packages/is-odd/*.md"],
+        "buildableProjectDepsInPackageJsonType": "dependencies"
       }
     },
     "publish": {
