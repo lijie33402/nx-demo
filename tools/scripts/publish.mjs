@@ -23,6 +23,7 @@ function invariant(condition, message) {
 
 // Executing publish script: node path/to/publish.mjs {name} --version {version} --tag {tag}
 // Default "tag" to "next" so we won't publish the "latest" tag by accident.
+console.log(process.argv);
 const [, , name, version, tag = 'next'] = process.argv;
 
 // A simple SemVer validation to validate the version
@@ -34,6 +35,7 @@ invariant(
 
 const graph = readCachedProjectGraph();
 const project = graph.nodes[name];
+
 
 invariant(
   project,
@@ -60,4 +62,4 @@ try {
 }
 
 // Execute "npm publish" to publish
-execSync(`npm publish --access public --tag ${tag}`);
+// execSync(`npm publish --access public --tag ${tag}`);
