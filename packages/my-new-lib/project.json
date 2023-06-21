@@ -46,6 +46,14 @@
           "codeCoverage": true
         }
       }
+    },
+    "printhello": {
+      "executor": "nx:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "echo hello"
+      },
+      "dependsOn": [{ "target": "build" }]
     }
   }
 }
