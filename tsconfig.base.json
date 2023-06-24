@@ -17,7 +17,8 @@
     "paths": {
       "@myorg/is-even": ["packages/is-even/src/index.ts"],
       "@myorg/is-odd": ["packages/is-odd/src/index.ts"],
-      "@myorg/my-new-lib": ["packages/my-new-lib/src/index.ts"]
+      "@myorg/my-new-lib": ["packages/my-new-lib/src/index.ts"],
+      "@myorg/myorg": ["packages/myorg/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
