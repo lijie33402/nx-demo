@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.0](https://github.com/lijie33402/nx-demo/compare/is-even-0.1.0...is-even-0.2.0) (2023-06-24)
+
+
+### Features
+
+* test ([0be3285](https://github.com/lijie33402/nx-demo/commit/0be328517da5dc35f9eb367a2f344f3c9cfba4b1))
+
 ## 0.1.0 (2023-06-24)
 
 
