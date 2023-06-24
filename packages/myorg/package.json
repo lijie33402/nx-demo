@@ -1,6 +1,6 @@
 {
   "name": "@myorg/myorg",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "commonjs",
   "peerDependencies": {
     "react": "^17.0.2"
