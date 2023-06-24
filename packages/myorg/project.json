@@ -15,10 +15,7 @@
         "project": "packages/myorg/package.json",
         "compiler": "babel",
         "buildableProjectDepsInPackageJsonType": "dependencies",
-        "format": [
-          "esm",
-          "cjs"
-        ]
+        "format": ["esm", "cjs"]
       }
     },
     "publish": {
@@ -44,6 +41,12 @@
           "ci": true,
           "codeCoverage": true
         }
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
       }
     }
   },

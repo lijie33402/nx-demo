@@ -53,7 +53,17 @@
       "options": {
         "command": "echo hello"
       },
-      "dependsOn": [{ "target": "build" }]
+      "dependsOn": [
+        {
+          "target": "build"
+        }
+      ]
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   }
 }
