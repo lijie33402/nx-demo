@@ -2,6 +2,12 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.13](https://github.com/lijie33402/nx-demo/compare/myorg-0.1.12...myorg-0.1.13) (2023-06-24)
+
+### Dependency Updates
+
+* `is-odd` updated to version `0.1.14`
+* `my-new-lib` updated to version `0.1.11`
 ### [0.1.12](https://github.com/lijie33402/nx-demo/compare/myorg-0.1.11...myorg-0.1.12) (2023-06-24)
 
 ### Dependency Updates
