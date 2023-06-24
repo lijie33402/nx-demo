@@ -1,6 +1,6 @@
 {
   "name": "@myorg/my-new-lib",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "peerDependencies": {
     "react": "^17.0.2"
   }
