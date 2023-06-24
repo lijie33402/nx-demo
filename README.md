@@ -59,4 +59,4 @@ Nx comes with local caching already built-in (check your `nx.json`). On CI you m
 
 ## verison
 
-npx nx affected --parallel=false --target=version
+npx nx affected  --parallel=false --target=version -- --trackDeps=true
