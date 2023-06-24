@@ -13,8 +13,12 @@
         "tsConfig": "packages/myorg/tsconfig.lib.json",
         "assets": [],
         "project": "packages/myorg/package.json",
-        "compiler": "swc",
-        "buildableProjectDepsInPackageJsonType": "dependencies"
+        "compiler": "babel",
+        "buildableProjectDepsInPackageJsonType": "dependencies",
+        "format": [
+          "esm",
+          "cjs"
+        ]
       }
     },
     "publish": {
