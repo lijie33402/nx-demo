@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.10](https://github.com/lijie33402/nx-demo/compare/my-new-lib-0.1.9...my-new-lib-0.1.10) (2023-06-24)
+
+### Dependency Updates
+
+* `is-odd` updated to version `0.1.13`
 ### [0.1.9](https://github.com/lijie33402/nx-demo/compare/my-new-lib-0.1.8...my-new-lib-0.1.9) (2023-06-24)
 
 ### Dependency Updates
