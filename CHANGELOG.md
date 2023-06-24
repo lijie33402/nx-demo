@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.2](https://github.com/lijie33402/nx-demo/compare/@myorg/source-0.1.1...@myorg/source-0.1.2) (2023-06-24)
+
 ### [0.1.1](https://github.com/lijie33402/nx-demo/compare/@myorg/source-0.1.0...@myorg/source-0.1.1) (2023-06-24)
 
 ## 0.1.0 (2023-06-24)
