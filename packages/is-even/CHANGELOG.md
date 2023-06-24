@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.13](https://github.com/lijie33402/nx-demo/compare/is-even-0.2.12...is-even-0.2.13) (2023-06-24)
+
 ### [0.2.12](https://github.com/lijie33402/nx-demo/compare/is-even-0.2.11...is-even-0.2.12) (2023-06-24)
 
 ### [0.2.11](https://github.com/lijie33402/nx-demo/compare/is-even-0.2.10...is-even-0.2.11) (2023-06-24)
