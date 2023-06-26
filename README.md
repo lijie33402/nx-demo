@@ -67,6 +67,7 @@ npx nx affected:graph --base=origin/main --head=HEAD
 ```
 
 通过下面命令自动计算改动并进行版本计算
+
 ```
-npx nx affected --base=origin/main --head=HEAD  --parallel=false --target=version -- --trackDeps=true
+npx nx affected --base=origin/main --head=HEAD  --parallel=false --target=version -- --releaseAs=patch --trackDeps=true
 ```
