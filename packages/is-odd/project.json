@@ -44,7 +44,7 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "conventional",
-        "trackDeps": true
+        "postTargets": ["is-odd:build", "is-odd:publish"]
       }
     }
   },

@@ -63,7 +63,7 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "conventional",
-        "trackDeps": true
+        "postTargets": ["my-new-lib:build", "my-new-lib:publish"]
       }
     }
   }

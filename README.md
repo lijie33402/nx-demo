@@ -59,4 +59,14 @@ Nx comes with local caching already built-in (check your `nx.json`). On CI you m
 
 ## verison
 
-npx nx affected  --parallel=false --target=version -- --trackDeps=true
+affected是只比对有改动的包以及依赖其改动的包进行处理，--base是基准，--head是新修改，我们采用本地最新提交和远程分支做比较来diff改动。
+
+通过graph命令分析改动关系图：
+```
+npx nx affected:graph --base=origin/main --head=HEAD
+```
+
+通过下面命令自动计算改动并进行版本计算
+```
+npx nx affected --base=origin/main --head=HEAD  --parallel=false --target=version -- --trackDeps=true
+```
