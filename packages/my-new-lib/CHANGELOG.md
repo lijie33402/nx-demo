@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.3](https://github.com/lijie33402/nx-demo/compare/my-new-lib-0.1.2...my-new-lib-0.1.3) (2023-06-26)
+
+
+### Features
+
+* publish change ([2a6bfa2](https://github.com/lijie33402/nx-demo/commit/2a6bfa2feb8609e903417965200c60c26fbb828f))
+
 ### [0.1.2](https://github.com/lijie33402/nx-demo/compare/my-new-lib-0.1.1...my-new-lib-0.1.2) (2023-06-26)
 
 ### [0.1.1](https://github.com/lijie33402/nx-demo/compare/my-new-lib-0.1.0...my-new-lib-0.1.1) (2023-06-26)
