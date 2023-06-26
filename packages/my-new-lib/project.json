@@ -65,6 +65,10 @@
         "preset": "conventional",
         "postTargets": ["my-new-lib:build", "my-new-lib:publish"]
       }
+    },
+    "publish": {
+      "command": "node tools/scripts/publish.mjs my-new-lib {args.version} {args.tag}",
+      "dependsOn": ["build"]
     }
   }
 }

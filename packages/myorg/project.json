@@ -19,7 +19,7 @@
       }
     },
     "publish": {
-      "command": "node tools/scripts/publish.mjs myorg {args.ver} {args.tag}",
+      "command": "node tools/scripts/publish.mjs myorg {args.version} {args.tag}",
       "dependsOn": ["build"]
     },
     "lint": {

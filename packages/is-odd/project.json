@@ -16,7 +16,7 @@
       }
     },
     "publish": {
-      "command": "node tools/scripts/publish.mjs is-odd {args.ver} {args.tag}",
+      "command": "node tools/scripts/publish.mjs is-odd {args.version} {args.tag}",
       "dependsOn": ["build"]
     },
     "lint": {
