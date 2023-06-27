@@ -63,3 +63,6 @@ try {
 
 // Execute "npm publish" to publish
 // execSync(`npm publish --access public --tag ${tag}`);
+
+// commit和tag一同提交
+execSync(`git push && git push --tags`)
