@@ -67,7 +67,7 @@
       }
     },
     "publish": {
-      "command": "node tools/scripts/publish.mjs my-new-lib {version} {tag}",
+      "command": "node tools/scripts/publish.mjs my-new-lib ${version} ${tag}",
       "dependsOn": ["build"]
     }
   }
