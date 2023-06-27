@@ -14,6 +14,9 @@ import chalk from 'chalk';
 import devkit from '@nx/devkit';
 const { readCachedProjectGraph } = devkit;
 
+const blackList = ['myorg']
+
+
 function invariant(condition, message) {
   if (!condition) {
     console.error(chalk.bold.red(message));
@@ -25,6 +28,11 @@ function invariant(condition, message) {
 // Default "tag" to "next" so we won't publish the "latest" tag by accident.
 console.log(process.argv);
 const [, , name, version, tag = 'next'] = process.argv;
+
+if (blackList.includes(name)) {
+  console.log('暂不发布的包！', name);
+  return
+}
 
 // A simple SemVer validation to validate the version
 const validVersion = /^\d+\.\d+\.\d+(-\w+\.\d+)?/;
