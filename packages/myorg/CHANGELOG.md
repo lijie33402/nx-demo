@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.4](https://github.com/lijie33402/nx-demo/compare/myorg-0.1.3...myorg-0.1.4) (2023-06-27)
+
+
+### Features
+
+* publish参数测试 ([8902a32](https://github.com/lijie33402/nx-demo/commit/8902a32bfc7c0934aa0678badf18b81c27d99303))
+
 ### [0.1.3](https://github.com/lijie33402/nx-demo/compare/myorg-0.1.2...myorg-0.1.3) (2023-06-26)
 
 
