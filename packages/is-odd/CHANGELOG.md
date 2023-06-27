@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.1-beta.0](https://github.com/lijie33402/nx-demo/compare/is-odd-0.2.0...is-odd-0.2.1-beta.0) (2023-06-27)
+
 ## [0.2.0](https://github.com/lijie33402/nx-demo/compare/is-odd-0.1.8...is-odd-0.2.0) (2023-06-27)
 
 ### [0.1.8](https://github.com/lijie33402/nx-demo/compare/is-odd-0.1.7...is-odd-0.1.8) (2023-06-27)
