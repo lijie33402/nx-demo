@@ -16,7 +16,7 @@
       }
     },
     "publish": {
-      "command": "node tools/scripts/publish.mjs is-even {args.version} {args.tag}",
+      "command": "node tools/scripts/publish.mjs is-even {version} {tag}",
       "dependsOn": ["build"]
     },
     "lint": {

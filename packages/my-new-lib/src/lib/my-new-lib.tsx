@@ -4,9 +4,10 @@ import { useEffect } from 'react';
 
 
 export function MyNewLib() {
-  console.log(isOdd());
+  console.log(isOdd(1));
   useEffect(() => {
-
+    console.log(1);
+    
   }, [])
   return (
     <div>
