@@ -71,3 +71,9 @@ npx nx affected:graph --base=origin/main --head=HEAD
 ```
 npx nx affected --base=origin/main --head=HEAD  --parallel=false --target=version -- --releaseAs=patch --trackDeps=true
 ```
+
+beta版本, prerelease
+
+```
+npx nx affected --base=origin/main --head=HEAD  --parallel=false --target=version -- --releaseAs=prerelease --preid=beta --trackDeps=true
+```
